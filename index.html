@@ -3,31 +3,33 @@
 <head>
 	<meta charset="utf-8">
 	<title>Googler</title>
-	<link rel="stylesheet" text="text/css" href="normalize.css">
-	<link rel="stylesheet" text="text/css" href="main.css">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="main.css">
 </head>
 <body>
-<div class="nav-container">
-	<nav>
-		<ol id="mainMenu">
-			<li><a class="nav-link" href="#">Chris</a></li>
-			<li><a class="nav-link" href="#">Gmail</a></li>
-			<li><a class="nav-link" href="#">Images</a></li>
-		</ol>
-	</nav>
-</div>
-	<center id="googleimg">
-		<img src="https://www.google.com/images/srpr/logo11w.png" height="95" width="269" alt="Google logo"><br>
-	<input type="text" name="search" value="" id="search"><br>
-	<input type="submit" value="Google Search" id="searchButton"><input type="submit" value="I'm Feeling Lucky" id="luckyButton">
-	</center>
-	<nav style="clear: both;" id="footer">
-		<ul id="leftMenu">
+	<div class="container">
+		<nav>
+			<ul class="menu">
+				<li><a class="nav-link" href="#">Chris</a></li>
+				<li><a class="nav-link" href="#">Gmail</a></li>
+				<li><a class="nav-link" href="#">Images</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="container">
+		<center id="googleimg">
+			<img src="https://www.google.com/images/srpr/logo11w.png" height="95" width="269" alt="Google logo"><br>
+		<input type="text" name="search" value="" id="search"><br>
+		<input type="submit" value="Google Search" id="searchButton"><input type="submit" value="I'm Feeling Lucky" id="luckyButton">
+		</center>
+	</div>
+	<nav style="clear: both;" class="footer">
+		<ul class="left-menu">
 			<li>Advertising</li>
 			<li>Business</li>
 			<li>About</li>
 		</ul>
-		<ul id="rightMenu">
+		<ul class="right-menu">
 			<li>Privacy</li>
 			<li>Terms</li>
 			<li>Settings</li>
