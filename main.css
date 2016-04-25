@@ -1,0 +1,66 @@
+nav ul li {
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+}
+
+nav ul#mainMenu {
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+	text-align: right;
+	border-bottom: none;
+	font-family: arial, Sans-Serif;
+	margin-right: 180px;
+	margin-top: 20px;
+}
+
+nav ul#leftMenu {
+	margin: 0px
+	list-style-type: none;
+	padding: 5px 0px 5px 25px;
+	float: left;
+	border-top: none;
+}
+
+nav ul#rightMenu {
+	margin: 0px
+	list-style-type: none;
+	padding: 5px 25px 5px 0px;
+	float: right;
+	border-top: none;
+}
+
+
+#footer {
+	bottom: 0;
+	right: 4px;
+	font-size: 12.2pt;
+	position: absolute;
+	width: 100%;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 5px;
+	min-width: 980px;
+	font-family: Arial, Sans-Serif;
+}
+
+#googleimg {
+	padding-top: 112px;
+}
+
+#search {
+	width: 571px;
+	height: 29.6px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#searchButton #luckyButton {
+	font-weight: bold;
+	font-family: arial, Sans-Serif;
+	font-size: 11px;
+	margin: 11px 8px;
+	padding: 0px 8px;
+	border-radius: 2px;
+	border: 0.8px;
+	text-align: center;
+}
