@@ -1,3 +1,9 @@
+/*****************Main Content*****************/
+
+body {
+
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -10,20 +16,25 @@ li {
 	display: inline-block;
 }
 
-li a {
+a {
 	display: block;
 	text-decoration: none;
 }
 
+/*****************Specific Classes and IDs*****************/
 
-nav ul#leftMenu {
+.header {
+	width 1000px;
+}
+
+.left-menu {
 	margin: 0px;
 	padding: 5px 0px 5px 25px;
 	float: left;
 	border-top: none;
 }
 
-nav ul#rightMenu {
+.right-menu {
 	margin: 0px;
 	padding: 5px 25px 5px 0px;
 	float: right;
@@ -44,18 +55,18 @@ nav.footer {
 	font-family: Arial, Sans-Serif;
 }
 
-#googleimg {
+.gimage {
 	padding-top: 112px;
 }
 
-#search {
+.search {
 	width: 571px;
 	height: 29.6px;
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
 
-#searchButton #luckyButton {
+.search-button.lucky-button {
 	font-weight: bold;
 	font-family: arial, Sans-Serif;
 	font-size: 11px;
