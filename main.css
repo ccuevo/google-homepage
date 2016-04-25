@@ -42,7 +42,7 @@ a {
 }
 
 
-nav.footer {
+.footer {
 	bottom: 0;
 	right: 4px;
 	font-size: 12.2pt;
@@ -66,13 +66,10 @@ nav.footer {
 	margin-bottom: 15px;
 }
 
-.search-button.lucky-button {
-	font-weight: bold;
-	font-family: arial, Sans-Serif;
-	font-size: 11px;
-	margin: 11px 8px;
-	padding: 0px 8px;
-	border-radius: 2px;
-	border: 0.8px;
-	text-align: center;
+.button {
+	padding: 5px;
+	background-color: #f2f2f2;
+	border: none;
+	color: #000;
+	text-decoration: none;
 }
