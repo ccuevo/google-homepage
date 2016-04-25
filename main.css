@@ -1,9 +1,5 @@
-nav ul li {
-	display: inline-block;
-	padding: 5px 10px 5px 10px;
-}
-
-nav ul#mainMenu {
+.nav-container {
+	display: inline;
 	list-style-type: none;
 	padding: 5px 0px 5px 0px;
 	text-align: right;
