@@ -28,17 +28,26 @@ a {
 }
 
 .left-menu {
-	margin: 0px;
+	margin-left: 35px;
 	padding: 5px 0px 5px 25px;
 	float: left;
 	border-top: none;
 }
 
+.left-menu li {
+	padding-right: 30px;
+	color: #545454;
+}
+
 .right-menu {
-	margin: 0px;
 	padding: 5px 25px 5px 0px;
 	float: right;
 	border-top: none;
+}
+
+.right-menu li {
+	padding-left: 30px;
+	color: #545454;
 }
 
 
@@ -51,7 +60,7 @@ a {
 	width: 100%;
 	background: #f2f2f2;
 	border-top: 1px solid #e4e4e4;
-	line-height: 5px;
+	line-height: 3px;
 	min-width: 980px;
 	font-family: Arial, Sans-Serif;
 }
