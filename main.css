@@ -23,8 +23,14 @@ a {
 
 /*****************Specific Classes and IDs*****************/
 
-.header {
-	width 1000px;
+.menu {
+	position: relative;
+	top: 30px;
+	right: 200px;
+}
+
+.menu li {
+	padding-right: 15px;
 }
 
 .left-menu {
